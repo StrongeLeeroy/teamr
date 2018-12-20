@@ -1,0 +1,45 @@
+{
+  "name": "@strongeleeroy/teamr",
+  "version": "0.0.1",
+  "description": "Random team generator",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node lib/index.js",
+    "publish": "npm publish --access=public"
+  },
+  "bin": {
+    "teamr": "./bin/teamr.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StrongeLeeroy/teamr.git"
+  },
+  "keywords": [
+    "random",
+    "teams",
+    "team",
+    "generator",
+    "nodejs"
+  ],
+  "author": {
+    "name": "Gorka Hernandez Estomba",
+    "email": "info@gorkahernandez.com",
+    "url": "https://www.gorkahernandez.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StrongeLeeroy/teamr/issues"
+  },
+  "homepage": "https://github.com/StrongeLeeroy/teamr#readme",
+  "dependencies": {
+    "@types/colors": "^1.2.1",
+    "@types/js-yaml": "^3.11.3",
+    "@types/node": "^10.12.18",
+    "colors": "^1.3.3",
+    "js-yaml": "^3.12.0",
+    "typescript": "^3.2.2"
+  }
+}
