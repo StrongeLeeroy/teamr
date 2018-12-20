@@ -6,12 +6,33 @@ A random team generator CLI tool.
 
 Install **teamr** globally by running:
 
-`npm install -g @strongeleeroy/teamr`
+```sh
+npm install -g @strongeleeroy/teamr
+```
 
 Then, use it from the command line:
 
 ```sh
 teamr --config teams.yaml
+```
+
+Output:
+```sh
+>---------- Viable Chinchillas ----------<
+  =>  Steven
+  =>  Margene
+  =>  Ashlie
+  =>  Christen
+  =>  Carlos
+>----------------------------------------<
+
+
+>---------- Braided Leopards ----------<
+  =>  Sally
+  =>  Buck
+  =>  Jamika
+  =>  Luisa
+>--------------------------------------<
 ```
 
 ## Configuration (teams.yaml)
