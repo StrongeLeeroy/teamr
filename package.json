@@ -6,8 +6,7 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "start": "node lib/index.js",
-    "publish": "npm publish --access=public"
+    "start": "node lib/index.js"
   },
   "bin": {
     "teamr": "./bin/teamr.js"
