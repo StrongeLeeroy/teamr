@@ -35,9 +35,11 @@ Output:
 >--------------------------------------<
 ```
 
-## Configuration (teams.yaml)
+## Configuration
 
-The initial teams configuration is done in YAML and must contain the number of desired teams and a list of people:
+The initial teams configuration is done in YAML and must contain the number of desired teams and a list of people. You can find an example in the `example` directory.
+
+The configuration looks like this:
 
 ```yaml
 teams: 2
